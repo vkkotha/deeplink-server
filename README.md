@@ -1,4 +1,4 @@
-# node-js-sample
+# deeplink-server
 
 A small poc that demos opening links with mobile apps with universal linking and deeplinking support.
 
