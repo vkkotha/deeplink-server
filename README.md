@@ -14,4 +14,5 @@ npm run dev
 ```
 
 Your app should now be running on [localhost:8080](http://localhost:8080/).
+
 Access the app from a mobile device on the same network using your machine ipaddress or name.
