@@ -8,6 +8,7 @@
     "build": "babel src -s -D -d dist",
     "start": "node dist",
     "prestart": "npm run -s build",
+    "postinstall": "npm run -s build",
     "test": "eslint src"
   },
   "eslintConfig": {
