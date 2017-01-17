@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>Native App Lanucher</title>
+    <script type="text/javascript" src="/static/libs/npm-zepto/zepto/dist/zepto.min.js"></script>
+    <script type="text/javascript" src="/static/js/native-app-launcher.js"></script>
+    <script language="javascript">
+    	(function() {
+			window.onload = function() {
+				NativeAppLauncher.init();
+				var deeplink = '${deeplink}';
+				var storeURI = '${storeURI}';
+				NativeAppLauncher.openApp(deeplink, storeURI);
+			};
+    	})();
+  	</script>
+</head>
+<body style="background: #00A4E6">
+	<iframe style="display:none" height="0" width="0" id="loader"></iframe>
+</body>
+</html>

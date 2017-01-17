@@ -17,7 +17,9 @@
       "sourceType": "module"
     },
     "env": {
-      "node": true
+      "browser": true,
+      "node": true,
+      "jquery": true
     },
     "rules": {
       "no-console": 0,
@@ -31,6 +33,8 @@
     "compression": "^1.6.2",
     "cors": "^2.8.1",
     "express": "^4.14.0",
+    "express-es6-template-engine": "^1.0.9",
+    "npm-zepto": "^1.1.7",
     "resource-router-middleware": "^0.6.0"
   },
   "devDependencies": {
