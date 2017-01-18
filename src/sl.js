@@ -41,13 +41,17 @@ export default ({ config, db }) => {
         if (link.path && link.path.trim().length > 0) {
             deeplink += link.path;
         } 
+        console.log("sending deeplink ", deeplink);
         return deeplink;
     }
 
     function getStoreURI(browserInfo, app) {
-        return browserInfo.isAndroid ?
+        var storeURI = browserInfo.isAndroid ?
             "market://details?id=" + app.androidAppStoreId :
             "https://itunes.apple.com/app/" + app.iosAppStoreId + "?mt=8";
+        console.log("sending storeURI ", storeURI);
+        return storeURI;
+
     }
 
     sl.get('/:link_id', (req, res) => {
