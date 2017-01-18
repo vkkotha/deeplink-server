@@ -32,7 +32,7 @@ const apps = [{
 	iosScheme: 'ted',
 	iosUniversalUrl: '',
 	androidScheme: 'ted',
-	androidHost: '',
+	androidHost: 'www.ted.com',
 	webDomain: 'http://www.ted.com'
 }, {
 	id: 'nytimes',
@@ -40,8 +40,8 @@ const apps = [{
 	androidAppStoreId: 'com.nytimes.android',
 	iosScheme: 'nytimes',
 	iosUniversalUrl: 'http://nytimes.com',
-	androidScheme: 'http',
-	androidHost: 'www.nytimes.com',
+	androidScheme: 'nytimes',
+	androidHost: '',
 	webDomain: 'http://www.nytimes.com'
 }];
 export default apps;
