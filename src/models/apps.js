@@ -4,7 +4,7 @@ const apps = [{
 	androidAppStoreId: 'com.google.android.youtube',
 	iosScheme: 'youtube',
 	iosUniversalUrl: 'http://www.youtube.com',
-	androidScheme: 'youtube',
+	androidScheme: 'http',
 	androidHost: 'www.youtube.com',
 	webDomain: 'http://www.youtube.com'
 }, {
@@ -13,7 +13,7 @@ const apps = [{
 	androidAppStoreId: 'com.twitter.android',
 	iosScheme: 'twitter',
 	iosUniversalUrl: '',
-	androidScheme: 'twitter',
+	androidScheme: 'http',
 	androidHost: 'www.twitter.com',
 	webDomain: 'http://www.twitter.com'
 }, {
@@ -31,7 +31,7 @@ const apps = [{
 	androidAppStoreId: 'com.ted.android',
 	iosScheme: 'ted',
 	iosUniversalUrl: '',
-	androidScheme: 'ted',
+	androidScheme: 'http',
 	androidHost: 'www.ted.com',
 	webDomain: 'http://www.ted.com'
 }, {
@@ -40,7 +40,7 @@ const apps = [{
 	androidAppStoreId: 'com.nytimes.android',
 	iosScheme: 'nytimes',
 	iosUniversalUrl: 'http://nytimes.com',
-	androidScheme: 'nytimes',
+	androidScheme: 'http',
 	androidHost: 'www.nytimes.com',
 	webDomain: 'http://www.nytimes.com'
 }];
