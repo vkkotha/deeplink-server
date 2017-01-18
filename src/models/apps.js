@@ -31,7 +31,7 @@ const apps = [{
 	androidAppStoreId: 'com.ted.android',
 	iosScheme: 'ted',
 	iosUniversalUrl: '',
-	androidScheme: 'http',
+	androidScheme: 'ted',
 	androidHost: 'www.ted.com',
 	webDomain: 'http://www.ted.com'
 }, {
@@ -40,7 +40,7 @@ const apps = [{
 	androidAppStoreId: 'com.nytimes.android',
 	iosScheme: 'nytimes',
 	iosUniversalUrl: 'http://nytimes.com',
-	androidScheme: 'http',
+	androidScheme: 'nytimes',
 	androidHost: 'www.nytimes.com',
 	webDomain: 'http://www.nytimes.com'
 }];
