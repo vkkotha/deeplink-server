@@ -5,7 +5,8 @@ const apps = [{
 	iosScheme: 'youtube',
 	iosUniversalUrl: 'http://www.youtube.com',
 	androidScheme: 'http',
-	androidHost: 'www.youtube.com'
+	androidHost: 'www.youtube.com',
+	webDomain: 'http://www.youtube.com'
 }, {
 	id: 'twitter',
 	iosAppStoreId : 'twitter/id333903271',
@@ -13,7 +14,8 @@ const apps = [{
 	iosScheme: 'twitter',
 	iosUniversalUrl: '',
 	androidScheme: 'http',
-	androidHost: 'www.twitter.com'
+	androidHost: 'www.twitter.com',
+	webDomain: 'http://www.twitter.com'
 }, {
 	id: 'facebook',
 	iosAppStoreId : 'facebook/id284882215',
@@ -21,7 +23,8 @@ const apps = [{
 	iosScheme: 'fb',
 	iosUniversalUrl: '',
 	androidScheme: 'fb',
-	androidHost: 'www.facebook.com'
+	androidHost: 'www.facebook.com',
+	webDomain: 'http://www.facebook.com'
 }, {
 	id: 'ted',
 	iosAppStoreId: 'ted/id376183339',
@@ -29,6 +32,7 @@ const apps = [{
 	iosScheme: 'ted',
 	iosUniversalUrl: '',
 	androidScheme: 'http',
-	androidHost: 'www.ted.com'
+	androidHost: 'www.ted.com',
+	webDomain: 'http://www.ted.com'
 }];
 export default apps;

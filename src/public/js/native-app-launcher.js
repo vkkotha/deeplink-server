@@ -43,13 +43,14 @@ var NativeAppLauncher = (function () {
     }
 
     function openWithDesktopStrategy(deeplink) {
+        // console.log("Openeing ", deeplink);
         document.location.href = deeplink;
     }
 
     return {
         // Stop any running timers.
         clearTimers: function () {
-            console.log("Clearing timers: [" + timers.join(', ') + ']');
+            // console.log("Clearing timers: [" + timers.join(', ') + ']');
             timers.map(clearTimeout);
             timers = [];
         },
@@ -73,9 +74,9 @@ var NativeAppLauncher = (function () {
             if (isIOS() || (isAndroid() && !isChrome())) {
               events.push("beforeunload");
             }
-            console.log("Listening window events: " + events.join(", "));
+            // console.log("Listening window events: " + events.join(", "));
             $(window).on(events.join(" "), function (e) {
-              console.log("Window event: " + e.type);
+              // console.log("Window event: " + e.type);
               launcher.clearTimers();
             });
         }
