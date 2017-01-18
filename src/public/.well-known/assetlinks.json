@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.herokuapp.deeplinkserver",
+    "sha256_cert_fingerprints":
+    ["9E:15:00:35:DA:1B:11:53:EC:0F:3A:51:DB:7D:16:71:31:C2:A2:10:25:A7:A3:0A:0E:D7:C7:81:0A:54:C6:A1"]
+  }
+}]

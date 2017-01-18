@@ -43,6 +43,8 @@ initDb( db => {
 
 	app.server.listen(process.env.PORT || config.port);
 
+	console.log("service static files on /.well-known from ", path.join(__dirname, '/public/.well-known'));
+	app.use('/.well-known', express.static(path.join(__dirname, '/public/.well-known')) );
 	console.log("service static files on /static from ", path.join(__dirname, '/public'));
 	app.use('/static', express.static(path.join(__dirname, '/public')) );
 	console.log("service static files on /static/libs from ", path.join(__dirname, '/../node_modules'));
