@@ -50,7 +50,7 @@ const apps = [{
 	iosScheme: 'herokuapp',
 	iosUniversalUrl: 'http://deeplink-server.herokuapp.com',
 	androidScheme: 'http',
-	androidHost: 'deeplink-sever.herokuapp.com',
-	webDomain: 'http://deeplink-sever.herokuapp.com'
+	androidHost: 'deeplink-server.herokuapp.com',
+	webDomain: 'http://deeplink-server.herokuapp.com'
 }];
 export default apps;
