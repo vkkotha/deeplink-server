@@ -43,5 +43,14 @@ const apps = [{
 	androidScheme: 'nytimes',
 	androidHost: '',
 	webDomain: 'http://www.nytimes.com'
+}, {
+	id: 'herokuapp',
+	iosAppStoreId: 'herokuapp',
+	androidAppStoreId: 'io.cordova.hellocordova',
+	iosScheme: 'herokuapp',
+	iosUniversalUrl: 'http://deeplink-server.herokuapp.com',
+	androidScheme: 'http',
+	androidHost: 'deeplink-sever.herokuapp.com',
+	webDomain: 'http://deeplink-sever.herokuapp.com'
 }];
 export default apps;

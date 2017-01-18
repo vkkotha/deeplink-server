@@ -17,5 +17,8 @@ const links = [{
 }, {
 	id: 'nytimes',
 	appId: 'nytimes'
+}, {
+	id: 'herokuapp',
+	appId: 'herokuapp'
 }];
 export default links;
