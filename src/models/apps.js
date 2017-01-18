@@ -4,7 +4,7 @@ const apps = [{
 	androidAppStoreId: 'com.google.android.youtube',
 	iosScheme: 'youtube',
 	iosUniversalUrl: 'http://www.youtube.com',
-	androidScheme: 'http',
+	androidScheme: 'youtube',
 	androidHost: 'www.youtube.com',
 	webDomain: 'http://www.youtube.com'
 }, {
@@ -13,7 +13,7 @@ const apps = [{
 	androidAppStoreId: 'com.twitter.android',
 	iosScheme: 'twitter',
 	iosUniversalUrl: '',
-	androidScheme: 'http',
+	androidScheme: 'twitter',
 	androidHost: 'www.twitter.com',
 	webDomain: 'http://www.twitter.com'
 }, {
