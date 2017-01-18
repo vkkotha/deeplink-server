@@ -23,7 +23,7 @@ const apps = [{
 	iosScheme: 'fb',
 	iosUniversalUrl: '',
 	androidScheme: 'fb',
-	androidHost: 'www.facebook.com',
+	androidHost: '',
 	webDomain: 'http://www.facebook.com'
 }, {
 	id: 'ted',
