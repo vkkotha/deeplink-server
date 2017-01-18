@@ -25,7 +25,7 @@ export default ({ config, db }) => {
         if(browserInfo.isAndroid) {
             deeplink += app.androidScheme + '://' + app.androidHost
         } else if(browserInfo.isiOS) {
-        	if (app.iosUniversalUrl && browserInfo.iOSVersion >= 9.0 && app.iosUniversalUrl.length > 0 ) {
+            if (app.iosUniversalUrl && browserInfo.iOSVersion >= 9.0 && app.iosUniversalUrl.length > 0 ) {
                 deeplink += app.iosUniversalUrl;
             } else {
                 deeplink += app.iosScheme + '://';
