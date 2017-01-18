@@ -1,23 +1,21 @@
 const links = [{
 	id: 'youtube',
-	appId: 'youtube',
-	isUniversalLink: true
+	appId: 'youtube'
 }, {
 	id: 'fb',
-	appId: 'facebook',
-	isUniversalLink: false
+	appId: 'facebook'
 }, {
 	id: 'fbp',
 	appId: 'facebook',
-	path: 'profile',
-	isUniversalLink: false
+	path: 'profile'
 }, {
 	id: 'twitter',
-	appId: 'twitter',
-	isUniversalLink: false
+	appId: 'twitter'
 }, {
 	id: 'ted',
-	appId: 'ted',
-	isUniversalLink: false
+	appId: 'ted'
+}, {
+	id: 'nytimes',
+	appId: 'nytimes'
 }];
 export default links;

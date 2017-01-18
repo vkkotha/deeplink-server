@@ -34,5 +34,14 @@ const apps = [{
 	androidScheme: 'http',
 	androidHost: 'www.ted.com',
 	webDomain: 'http://www.ted.com'
+}, {
+	id: 'nytimes',
+	iosAppStoreId: 'nytimes-breaking-local-national/id284862083',
+	androidAppStoreId: 'com.nytimes.android',
+	iosScheme: 'nytimes',
+	iosUniversalUrl: 'http://nytimes.com',
+	androidScheme: 'http',
+	androidHost: 'www.nytimes.com',
+	webDomain: 'http://www.nytimes.com'
 }];
 export default apps;
