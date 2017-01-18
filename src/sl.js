@@ -43,7 +43,11 @@ export default ({ config, db }) => {
                 deeplink += "/";
             }
             deeplink += link.path;
-        } 
+        }
+
+        if(deeplink.endsWith("://")) {
+            deeplink += "?"; // to avoid fb:// crashing on android
+        }
         console.log("sending deeplink ", deeplink);
         return deeplink;
     }
