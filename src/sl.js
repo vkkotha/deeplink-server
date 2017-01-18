@@ -26,12 +26,12 @@ export default ({ config, db }) => {
             deeplink += app.androidScheme + '://' + app.androidHost
         } else if(browserInfo.isiOS) {
         	if (app.iosUniversalUrl && browserInfo.iOSVersion >= 9.0 && app.iosUniversalUrl.length > 0 ) {
-                deeplink += app.iosUniversalUrl + "/";
+                deeplink += app.iosUniversalUrl;
             } else {
                 deeplink += app.iosScheme + '://';
             }
         } else {
-            deeplink += app.webDomain + "/";
+            deeplink += app.webDomain;
         }
         /*
         var deeplink = browserInfo.isAndroid && browserInfo.isFirefox ?
@@ -39,6 +39,9 @@ export default ({ config, db }) => {
             app.appURI + "://";
         */
         if (link.path && link.path.trim().length > 0) {
+            if (!deeplink.endsWith('/')) {
+                deeplink += "/";
+            }
             deeplink += link.path;
         } 
         console.log("sending deeplink ", deeplink);
